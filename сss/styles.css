@@ -1,15 +1,13 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-item {
   width: 360px;
   height: 200px;
-  
 }
 
 .gallery-link {
@@ -19,6 +17,6 @@
 }
 
 .gallery-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
