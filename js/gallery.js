@@ -66,7 +66,7 @@ const images = [
 
 const gallery = document.querySelector('ul.gallery');
 
-cinst galleryImg = images.map(({ previewm, original, description }) => {
+const galleryImg = images.map(({ previewm, original, description }) => {
     return `
      <li class="gallery-item">
   <a class="gallery-link" href="${original}">
