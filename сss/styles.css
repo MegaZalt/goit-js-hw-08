@@ -20,3 +20,8 @@
   width: 100%;
   height: auto;
 }
+
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale (1.05);
+}
