@@ -72,7 +72,7 @@ const galleryImg = images.map(({ previewm, original, description }) => {
   <a class="gallery-link" href="${original}">
     <img
       class="gallery-image"
-      src="${previewm}"
+      src="${preview}"
       data-source="${original}"
       alt= "${description}"
     />
