@@ -5,19 +5,22 @@ body {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
   list-style-type: none;
 }
 
 .gallery-item {
   width: 360px;
   height: 200px;
+  position: relative;
+    overflow: hidden;
 }
 
 .gallery-link {
+  display: block;
   width: 112px;
   height: 640px;
   display: block;
@@ -26,10 +29,8 @@ body {
 .gallery-image {
   width: auto;
   height: auto;
-  margin-right: 24px;
-  margin-left: 156px;
-  padding-left: 24px;
-  padding-right: 24px;
+  display: block;
+    transition: transform 0.3s ease;
 }
 
 .gallery-image:hover,
