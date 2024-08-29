@@ -9,8 +9,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  padding: 10px;
   list-style-type: none;
   justify-items: center;
 }
