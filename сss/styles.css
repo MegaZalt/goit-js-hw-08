@@ -17,6 +17,9 @@ body {
   height: 200px;
   position: relative;
     overflow: hidden;
+    margin-left: 156px;
+    margin-right: 156px;
+
 }
 
 .gallery-link {
