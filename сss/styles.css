@@ -12,6 +12,7 @@ body {
   gap: 24px;
   padding: 10px;
   list-style-type: none;
+  justify-items: center;
 }
 
 .gallery-item {
@@ -19,8 +20,6 @@ body {
   height: 200px;
   position: relative;
   overflow: hidden;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 
 .gallery-link {
@@ -33,8 +32,8 @@ body {
 .gallery-image {
   width: auto;
   height: auto;
-  display: block;
   transition: transform 0.3s ease;
+  object-fit: cover;
 }
 
 .gallery-image:hover,
