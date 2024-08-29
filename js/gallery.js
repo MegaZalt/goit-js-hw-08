@@ -80,3 +80,7 @@ const galleryImg = images.map(({ previewm, original, description }) => {
 </li>
 `;
 });
+
+const galleryDoc = galleryImg.join('');
+
+gallery.innerHTML = galleryDoc;
