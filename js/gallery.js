@@ -84,3 +84,15 @@ const galleryImg = images.map(({ preview, original, description }) => {
 const galleryDoc = galleryImg.join('');
 
 gallery.innerHTML = galleryDoc;
+
+gallery.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  if (event.target.nodeName !== 'IMG') return;
+
+  const largeImage = event.target.dataset.source;
+
+  basicLightbox.create(`
+    <img src="${largeImage}" width="1112" height="640">
+    `).show();
+});
