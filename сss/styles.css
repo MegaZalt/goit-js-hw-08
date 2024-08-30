@@ -5,13 +5,14 @@ body {
 }
 
 .gallery {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 12px;
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
   list-style-type: none;
   justify-items: center;
+  padding: 24px;
 }
 
 .gallery-item {
